@@ -50,15 +50,21 @@ main .first-section .text-container p {
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 20rem;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 13vw;
+    padding-right: 13vw;
     display: grid;
     grid-template-columns: 1fr 62%;
 }
 
 .rating-boxes {
     display: block;
-    margin-left: 25%;
+    margin-left: 18%;
+}
+
+@media only screen and (max-width: 1500px ) {
+    .rating-boxes {
+        margin-left: 12%;
+    }
 }
 
 .star-box {
@@ -95,8 +101,8 @@ main .first-section .text-container p {
 
 .second-section {
     padding-top: 4rem;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 13vw;
+    padding-right: 13vw;
     color: var(--light-grayish-magenta);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
