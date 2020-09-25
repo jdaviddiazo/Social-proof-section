@@ -150,3 +150,13 @@ h3 {
     font-size: 1.3rem;
     line-height: 2.1rem;
 }
+
+.attribution {
+    margin-top: 15rem;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
