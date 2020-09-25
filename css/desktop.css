@@ -23,7 +23,7 @@ main {
 }
 
 main .first-section .text-container h1 {
-    margin-right: 2rem;
+    margin-right: 4rem;
     font-size: 5rem;
     font-weight: 700;
     letter-spacing: -.2rem;
@@ -50,15 +50,15 @@ main .first-section .text-container p {
     background-size: contain;
     background-repeat: no-repeat;
     padding-top: 20rem;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     display: grid;
-    grid-template-columns: 1fr 60%;
+    grid-template-columns: 1fr 62%;
 }
 
 .rating-boxes {
     display: block;
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 .star-box {
@@ -95,8 +95,8 @@ main .first-section .text-container p {
 
 .second-section {
     padding-top: 4rem;
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 12vw;
+    padding-right: 12vw;
     color: var(--light-grayish-magenta);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
