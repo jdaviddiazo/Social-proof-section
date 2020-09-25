@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Spartan', sans-serif;
+}
+
+:root {
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+}
+
+main .first-section .text-container h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: -.2rem;
+    line-height: 4rem;
+    color: var(--very-dark-magenta);
+}
+
+main .first-section .text-container p {
+    letter-spacing: -.5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    color: var(--dark-grayish-magenta);
+}
+
+.principal-description {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.text-container {
+    padding-top: 8rem;
+}
+
+main .first-section {
+    background: url("../images/bg-pattern-top-mobile.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 0 2.5rem;
+    display: block;
+}
+
+.rating-boxes {
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+.star-box {
+    background-color: var(--light-grayish-magenta);
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.stars {
+    letter-spacing: .5rem;
+}
+
+.title-rated {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    color: var(--very-dark-magenta);
+}
+
+.second-section {
+    margin: 6rem 2.5rem;
+    color: var(--light-grayish-magenta);
+    display: grid;
+    grid-row-gap: 2rem;
+}
+
+.box-testimonial {
+    background-color: var(--very-dark-magenta);
+    padding: 3rem;
+    border-radius: .5rem;
+}
+
+.person {
+    display: grid;
+    grid-template-columns: 6rem 1fr;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 4rem;
+}
+
+.verified-name {
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--soft-pink);
+}
+
+.testimonial {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
