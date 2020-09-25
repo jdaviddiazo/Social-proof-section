@@ -18,23 +18,21 @@ html {
 
 main {
     background: url("../images/bg-pattern-bottom-desktop.svg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
 }
 
 main .first-section .text-container h1 {
     font-size: 5rem;
     font-weight: 700;
     letter-spacing: -.2rem;
-    line-height: 4rem;
+    line-height: 5.5rem;
     color: var(--very-dark-magenta);
 }
 
 main .first-section .text-container p {
     letter-spacing: -.5px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.5rem;
     color: var(--dark-grayish-magenta);
@@ -45,34 +43,43 @@ main .first-section .text-container p {
     margin-bottom: 3rem;
 }
 
-.text-container {
-    padding-top: 8rem;
-}
 
 .first-section {
     background: url("../images/bg-pattern-top-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 7rem 20rem;
+    padding-top: 20rem;
+    padding-left: 15vw;
+    padding-right: 15vw;
     display: grid;
     grid-template-columns: 1fr 70%;
 }
 
 .rating-boxes {
-    display: grid;
-    justify-content: center;
+    display: block;
+    margin-left: 35%;
 }
 
 .star-box {
     background-color: var(--light-grayish-magenta);
-    margin: 1rem 0;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     border-radius: .5rem;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    padding-left: 3rem;
-    padding-right: 15rem;
+    padding: 2rem 10rem 2rem 5rem;
 }
+
+.star-box.first {
+    margin-left: -8rem;
+    margin-right: 8rem;
+}
+
+.star-box.second {
+    margin-left: -4rem;
+    margin-right: 4rem;
+}
+
 
 .stars {
     letter-spacing: .5rem;
@@ -86,15 +93,21 @@ main .first-section .text-container p {
 }
 
 .second-section {
-    padding: 6rem 2.5rem;
+    padding-top: 4rem;
+    padding-left: 15vw;
+    padding-right: 15vw;
     color: var(--light-grayish-magenta);
     display: grid;
-    grid-row-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
 }
 
 .box-testimonial {
     background-color: var(--very-dark-magenta);
-    padding: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
     border-radius: .5rem;
 }
 
@@ -107,9 +120,6 @@ main .first-section .text-container p {
 .profile-pic {
     border-radius: 50%;
     width: 4rem;
-}
-
-.verified-name {
 }
 
 h2 {
