@@ -49,7 +49,7 @@ main .first-section .text-container p {
     background: url("../images/bg-pattern-top-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    padding-top: 20rem;
+    padding-top: 16rem;
     padding-left: 13vw;
     padding-right: 13vw;
     display: grid;
@@ -58,12 +58,18 @@ main .first-section .text-container p {
 
 .rating-boxes {
     display: block;
-    margin-left: 18%;
+    margin-left: 25%;
 }
 
-@media only screen and (max-width: 1500px ) {
+@media only screen and (max-width: 1590px ) {
     .rating-boxes {
-        margin-left: 12%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 1410px ) {
+    .rating-boxes {
+        margin-left: 10%;
     }
 }
 
